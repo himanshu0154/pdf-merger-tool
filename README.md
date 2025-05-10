@@ -22,6 +22,7 @@ Install the required package using:
 
 ```bash
 pip install pypdf
+```
 
 # Usage
 
