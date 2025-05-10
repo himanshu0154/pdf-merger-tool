@@ -20,8 +20,8 @@ Developed by [himanshu0154](https://github.com/himanshu0154)
 
 Install the required package using:
 
-    ```bash
-    pip install pypdf
+```bash
+pip install pypdf
 
 # Usage
 
@@ -30,13 +30,15 @@ Install the required package using:
 ```bash
 git clone https://github.com/himanshu0154/pdf-merger-tool.git
 cd pdf-merger-tool
+```
 
 2. Organise your PDF files inside the PDF_merger\data directory
 
 3. Run the script:
 
-    ```bash
-    python main.py
+```bash
+python main.py
+```
 
 4. Enter the number of PDF files and their names without the .pdf extension when prompted.
 
@@ -45,26 +47,28 @@ cd pdf-merger-tool
 
 # Example 
 
-    ```bash
-    how many pdfs do you want to merge?
-    3
-    enter the name of your pdf
-    1. file1
-    2. file2
-    3. file3
-    pdf merged successfully
+```bash
+how many pdfs do you want to merge?
+3
+enter the name of your pdf
+1. file1
+2. file2
+3. file3
+pdf merged successfully
+```
 
 # Directory Structure
 
-    ```bash
-    pdf-merger-tool/
-    ├── PDF_merger/
-    │   └── data/
-    │       ├── file1.pdf
-    │       ├── file2.pdf
-    │       ├── file3.pdf
-    │       └── merged-pdf.pdf
-    └── main.py
+```bash
+pdf-merger-tool/
+├── PDF_merger/
+│   └── data/
+│       ├── file1.pdf
+│       ├── file2.pdf
+│       ├── file3.pdf
+│       └── merged-pdf.pdf
+└── main.py
+```
 
 # License
 
