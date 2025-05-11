@@ -18,9 +18,13 @@ for i in range(1,no_of_pdfs + 1):
     else:
         print("file not found!!")
 
-for pdf in pdfs:
-    merger.append(pdf)
 
-merger.write(r"PDF_merger\data\\merged-pdf.pdf")
-print("pdf merged successfully")
+if pdfs != []:
+    for pdf in pdfs:
+        merger.append(pdf)
+        output_path = os.path.join(path, "merger_output.pdf")
+        merger.write(output_path)
+    print("pdf merged successfully")
+
+    
 merger.close()
